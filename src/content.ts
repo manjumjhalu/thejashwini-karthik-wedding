@@ -36,7 +36,7 @@ export const config = {
     },
     {
       id: "special-memory",
-      src: `${baseUrl}/videos/memory.MOV`,
+      src: `${baseUrl}/videos/memory.mp4`,
       poster: `${baseUrl}/photos/couple.jpeg`,
       alt: "A Special Memory",
       label: "A Special Memory",

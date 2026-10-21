@@ -342,16 +342,15 @@ function PhotoGallery({ t }: { t: Copy }) {
                       className="lightbox-video"
                       onError={() => setVideoError(true)}
                     >
-                      <source src={activeMedia.src} type="video/quicktime" />
                       <source src={activeMedia.src} type="video/mp4" />
+                      <source src={activeMedia.src} type="video/quicktime" />
                       Your browser does not support the video tag.
                     </video>
                     <p className="lightbox-media-title">{activeMedia.label}</p>
                     {videoError && (
                       <div className="video-error-box">
                         <p>
-                          Your browser may not support the HEVC video codec in this <code>.MOV</code> file.
-                          If playback does not start, please convert <code>memory.MOV</code> to MP4 (H.264 video + AAC audio) for universal browser support.
+                          Your browser could not play this video. Please ensure the video format is supported.
                         </p>
                       </div>
                     )}
