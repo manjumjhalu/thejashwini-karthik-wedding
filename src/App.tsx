@@ -401,9 +401,9 @@ function MusicPlayer({ t }: { t: Copy }) {
           setError(true)
         }}
       >
-        <source src={config.music} type="audio/mpeg" />
-        <source src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/Song/songs.mp3`} type="audio/mpeg" />
+        <source src={config.music} type="audio/mp4" />
         <source src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/Song/songs.m4a`} type="audio/mp4" />
+        <source src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/Song/songs.mp3`} type="audio/mpeg" />
       </audio>
       {error && (
         <span className="music-message" role="status">

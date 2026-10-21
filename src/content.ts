@@ -11,7 +11,7 @@ const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "")
 
 export const config = {
   websiteUrl: import.meta.env.VITE_WEBSITE_URL || "",
-  music: `${baseUrl}/Song/songs.mp3`,
+  music: `${baseUrl}/Song/songs.m4a`,
   photos: [
     {
       id: "couple",
