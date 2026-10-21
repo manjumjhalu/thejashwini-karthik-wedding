@@ -1,0 +1,10 @@
+{
+  "description": "Create a stunning 3D wedding invitation website that immerses guests in a cinematic experience, featuring interactive elements and essential event details.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
